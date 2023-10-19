@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+}
+
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    font-family:  sans-serif;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    position: fixed;
+    z-index: 99;
+    background-color: rgba(255, 255, 255, 0.658);
+    backdrop-filter: blur(4px);
+}
+.center-nav{
+    display: flex;
+    gap: 5vw;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh; 
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+}
+.one h1{
+    font-size: 22vw;
+    color: white;
+    text-transform: uppercase;
+}
+#fanta{
+    width: 40%;
+    z-index: 2;
+    position: absolute;
+    transition: cubic-bezier(0.19, 1, 0.22, 1);
+}
+#orange-cut{
+    width: 15%;
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    z-index: 1;
+}
+#orange{
+    width: 20%;
+    position: absolute;
+    top: 55%;
+    /* right: 30%; */
+    z-index: 3;
+}
+.two{
+    display: flex;
+    width: 100%;
+    height: 100vh; 
+    background-color: #513a1c;
+}
+#leaf{
+    width: 10%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+#leaf2{
+    width: 25%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+}
+
+.left-two, .right-two{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+}
+.left-two svg{
+    width: 90%; 
+    margin-top: 15vh;
+    transform: rotateX(50deg);
+}
+.right-two h1{
+    color: white;
+    font-size: 5vw;
+}
+.right-two p{
+    font-size: 1vw;
+    color: white;
+    width: 80%;
+}
+.three{
+    width: 100%;
+    height: 100vh; 
+    background:linear-gradient(150deg, rgb(255, 166, 0), rgb(255, 94, 0));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    overflow: hidden;
+ }
+ .card{
+    width: 25%;
+    height: 70vh;
+    background-color: white;
+    border-radius: 15px ;
+    margin-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    position: relative;
+ }
+ .card h1{
+    font-size: 3vw;
+    margin-top: 40vh;
+ }
+ .card button{
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border-radius: 50px;
+    color: white;
+    background-color: rgb(255, 157, 0) ;
+}
+#cocacola{
+    width: 60%;
+    position: absolute; 
+    top: -9%; 
+    left: 50%;
+    transform: translateX(-50%);
+}
+#pepsi{
+    width: 85%;
+    position: absolute; 
+    top: -10%; 
+}
+.card-orange{
+    width: 15vw;
+    position: absolute;
+}
+.card-orange-1{
+    left: 1%;
+    top: -30%;
+}
+.card-orange-2{
+    top: -30%;
+    right: 1%;
+}
